@@ -10,7 +10,7 @@ const projects = [
         category: 'Frontend Engineering + Interactive System Design',
         liveLink: 'https://astrosphere.onrender.com',
         githubLink: 'https://github.com/dinraj910/Astrosphere',
-        image: 'images/astrosphere.png',
+        image: '/images/astrosphere.png',
     },
     {
         number: '02',

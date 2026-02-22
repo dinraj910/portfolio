@@ -7,7 +7,7 @@ export default function About() {
                         <div className="about-image-frame">
                             <div className="about-avatar">
 
-                                <img src="images/dinraj_myimage.jpg" alt="Dinraj" className="about-avatar-img" />
+                                <img src="/images/dinraj_myimage.jpg" alt="Dinraj" className="about-avatar-img" />
 
                             </div>
                             <div className="about-orb about-orb-1" />
