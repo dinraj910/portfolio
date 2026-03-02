@@ -14,6 +14,19 @@ const projects = [
     },
     {
         number: '02',
+        title: 'VitaCraft AI – AI-Powered Career Document SaaS Platform',
+        impact: 'Production-grade, multi-tenant SaaS platform that leverages cloud LLMs to generate professional resumes, cover letters, and job analysis reports instantly.',
+        problem: 'Job seekers struggle to create ATS-optimized career documents quickly, while existing tools lack intelligent personalization, secure multi-user architecture, and production-ready scalability.',
+        solution: 'Built a full-stack SaaS platform with React 19 + Node.js/Express, integrating Groq (Llama 3/Mixtral) and Google Gemini LLMs for AI document generation, Stripe subscription billing, AWS S3 PDF storage with presigned URLs, JWT dual-token auth with refresh-token rotation, Docker multi-stage containerization, and an automated GitHub Actions CI/CD pipeline.',
+        techStack: ['React 19', 'Node.js', 'Express', 'PostgreSQL', 'Prisma ORM', 'Groq LLM', 'Google Gemini', 'Stripe', 'AWS S3', 'Docker', 'TailwindCSS', 'JWT', 'Zustand', 'Vercel', 'Render'],
+        features: ['AI resume, cover letter & job-description generation', 'Credit-based tiered billing via Stripe Checkout & Webhooks', 'JWT dual-token auth with refresh-token rotation (HttpOnly cookies)', 'AWS S3 PDF storage with time-limited presigned download URLs', 'Docker multi-stage builds + Docker Compose orchestration', 'CI/CD pipeline via GitHub Actions with Jest integration tests'],
+        category: 'Full-Stack SaaS | AI Integration | Cloud-Native | DevOps',
+        liveLink: 'https://vitacraft-ai.vercel.app/',
+        githubLink: 'https://github.com/dinraj910/vitacraft-ai-saas-platform',
+        image: '/images/vitacraft.png',
+    },
+    {
+        number: '03',
         title: 'Spam SMS Classification (NLP + LSTM RNN)',
         impact: 'End-to-end NLP pipeline with LSTM-based sequence modeling for spam detection.',
         problem: 'SMS spam continues to be a widespread problem, requiring intelligent automated filtering beyond keyword matching.',
@@ -26,7 +39,7 @@ const projects = [
         image: 'https://camo.githubusercontent.com/00c597e53198f684d7d78223c6ba7e9093ffae49b350987f24ff57bd8f2919af/68747470733a2f2f656469746f722e616e616c79746963737669646879612e636f6d2f75706c6f6164732f333230383668656164696e672e6a706567',
     },
     {
-        number: '03',
+        number: '04',
         title: 'Sentiment Analysis using LSTM (NLP)',
         impact: 'Resume-grade sentiment analysis system for real-world text classification.',
         problem: 'Understanding sentiment in user-generated text at scale requires models that capture sequential context and meaning.',
@@ -39,7 +52,7 @@ const projects = [
         image: 'https://bairesdev.mo.cloudinary.net/blog/2023/05/anC3A1lisis-de-sentimientos-opiniones-diferentes-varios-comentarios-de-los-clientes-buenas.jpg_s1024x1024wisk20cuZzouoq0Vke0RAHYPjMHsTgpuejmwg1WKqTZo83iOqY.jpg?tx=w_1920,q_auto',
     },
     {
-        number: '04',
+        number: '05',
         title: 'Traffic AI – Real-Time Vehicle Detection & Flow Analysis',
         impact: 'Real-time vehicle detection, tracking, and traffic flow analytics using YOLOv8.',
         problem: 'Manual traffic monitoring is inefficient and cannot scale across multiple intersections simultaneously.',
@@ -52,7 +65,7 @@ const projects = [
         image: 'https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=800&q=80',
     },
     {
-        number: '05',
+        number: '06',
         title: 'Structural Damage Severity Assessment (CNN)',
         impact: 'Computer vision system for disaster response and infrastructure inspection.',
         problem: 'Post-disaster structural assessment is dangerous, slow, and relies on limited expert availability.',
@@ -65,7 +78,7 @@ const projects = [
         image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80',
     },
     {
-        number: '06',
+        number: '07',
         title: 'Retail Loss Prevention & Shelf Intelligence (YOLO)',
         impact: 'YOLO-based retail analytics with explainable loss-prevention insights.',
         problem: 'Retail shrinkage and poor shelf management cost billions annually, with manual monitoring being impractical at scale.',
@@ -78,7 +91,7 @@ const projects = [
         image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80',
     },
     {
-        number: '07',
+        number: '08',
         title: 'DermaAI – Skin Lesion Classification (CNN + ResNet)',
         impact: 'Medical imaging application classifying skin lesions with confidence scores.',
         problem: 'Early detection of malignant skin lesions is critical but requires specialist dermatologists not always accessible.',
@@ -91,7 +104,7 @@ const projects = [
         image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80',
     },
     {
-        number: '08',
+        number: '09',
         title: 'Industrial Defect Inspection (CNN Autoencoder)',
         impact: 'AI-based anomaly detection system for automated quality control.',
         problem: 'Manual defect inspection in manufacturing is inconsistent and expensive.',
@@ -104,7 +117,7 @@ const projects = [
         image: 'https://images.unsplash.com/photo-1565043666747-69f6646db940?auto=format&fit=crop&w=800&q=80',
     },
     {
-        number: '09',
+        number: '10',
         title: 'Visual CNN Builder with Code Generation',
         impact: 'Full-stack ML engineering platform for visual neural network design.',
         problem: 'Designing CNN architectures manually requires deep expertise and is error-prone for beginners and rapid prototyping.',
@@ -117,7 +130,7 @@ const projects = [
         image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&q=80',
     },
     {
-        number: '10',
+        number: '11',
         title: 'AI-Based UI/UX Quality Inspector (CNN + Explainable AI)',
         impact: 'Explainable AI system to automatically evaluate web and mobile UI quality.',
         problem: 'UI/UX quality assessment is subjective and time-consuming, lacking automated intelligent evaluation tools.',
@@ -130,7 +143,7 @@ const projects = [
         image: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=800&q=80',
     },
     {
-        number: '11',
+        number: '12',
         title: 'AI-Powered Wildlife Monitoring System (YOLOv8)',
         impact: 'AI-based solution for automated detection of conflict-prone wildlife species.',
         problem: 'Manual wildlife monitoring in conflict zones is dangerous, limited in coverage, and cannot operate 24/7.',
@@ -143,7 +156,7 @@ const projects = [
         image: 'https://weboccult.com/wp-content/uploads/2025/03/Wildlife-Monitoring-2.png',
     },
     {
-        number: '12',
+        number: '13',
         title: 'AI Real-Time Face Emotion Detection',
         impact: 'Real-time facial emotion recognition achieving impressive accuracy on 35,000+ images.',
         problem: 'Understanding human emotions in real-time from facial expressions enables better human-computer interaction.',
@@ -156,7 +169,7 @@ const projects = [
         image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80',
     },
     {
-        number: '13',
+        number: '14',
         title: 'Fake News Detection using Bidirectional LSTM',
         impact: 'Bidirectional LSTM system trained on WELFake dataset for news classification.',
         problem: 'Misinformation spreads rapidly online, and manual fact-checking cannot keep pace with the volume of published content.',
